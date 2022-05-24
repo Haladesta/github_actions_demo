@@ -1,0 +1,35 @@
+{
+    "name": "github_actions_beispiel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/main.js",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Haladesta/github_actions_beispiel.git"
+    },
+    "author": "Henrik",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Haladesta/github_actions_beispiel/issues"
+    },
+    "homepage": "https://github.com/Haladesta/github_actions_beispiel#readme",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "express": "^4.18.1",
+        "got": "^12.0.4",
+        "http": "^0.0.1-security",
+        "mocha": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.35",
+        "typescript": "^4.6.4"
+    }
+}
