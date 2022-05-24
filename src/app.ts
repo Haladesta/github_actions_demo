@@ -6,7 +6,7 @@ export const port: number = 3000;
 
 
 app.get('/', (req, res) => {
-    res.send('Hello Wrld!');
+    res.send('Hello World!');
 });
 
 export const server = http.createServer(app)
